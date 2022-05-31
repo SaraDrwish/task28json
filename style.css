@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(212, 225, 233);
+
+}
+
+#button{
+    padding: 1% 2%;
+    margin: 1%;
+    background-color: orangered;
+    border: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: rgb(129, 173, 194);
+    font-size: 20px;
+
+}
+
+#yname{
+    margin-left: 11%;
+    padding: 1%;
+    border:1px solid orangered;
+    margin-top: 10%;
+    color: rgb(68, 119, 143);
+}
+
+
+/* ----------------------------------------------------------------------------------------
+-------------------------------------loader------------------------------------------------------- */
+
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    margin: 100px auto;
+    background-color: orangered;
+    
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    border-radius: 100%;  
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+  }
+  
+  @-webkit-keyframes sk-scaleout {
+    0% { -webkit-transform: scale(0) }
+    100% {
+      -webkit-transform: scale(1.1);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes sk-scaleout {
+    0% { 
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    } 100% {
+      -webkit-transform: scale(2.0);
+      transform: scale(2.0);
+      opacity: 0;
+      -moz-transform: scale(2.0);
+      -ms-transform: scale(2.0);
+      -o-transform: scale(2.0);
+}
+  }
